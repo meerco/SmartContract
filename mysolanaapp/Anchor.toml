@@ -1,0 +1,12 @@
+[programs.localnet]
+mysolanaapp = "HL5N3Va6fyvb51qxZ4Ye6kKjykFC5DsZHFXQah3APTED"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/meerco/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
